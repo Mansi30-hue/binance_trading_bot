@@ -32,13 +32,20 @@ binance_trading_bot/
 ### 1. Install dependencies
 ```bash
 pip install python-binance
+
+
 ### 2. Configure API key
    API_KEY = "YOUR_TESTNET_API_KEY"
    API_SECRET = "YOUR_TESTNET_SECRET_KEY"
    BASE_URL = "https://testnet.binancefuture.com"
+
+
 ### 3. Usage
    Market Order (BUY) - python main.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
    Limit Order (SELL) - python main.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.001 --price 50000
+
+
+
 ### 4. Output
 
 The application prints:
